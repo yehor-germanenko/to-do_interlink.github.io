@@ -1,0 +1,77 @@
+body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.body{
+    padding: 6px;
+    border: 2px solid #E4E4E4;
+    max-width: 250px;
+    min-height: 150px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.nav{
+    margin-top: 10px;
+}
+
+.list li{
+    list-style-type: none;
+    display: flex;
+    height: 25px;
+    align-items: center;
+}
+
+i{
+    color: #CACACA;
+    cursor: pointer;
+    margin: 0 3px;
+}
+
+.el:hover{
+    color: #323232;
+}
+
+#task{
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.create{
+    background-color: #fff;
+}
+
+ul li input[type=text] {
+    display: none;
+}
+
+.editMode input[type=text]{
+    display: block;
+    width: 90px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+.editMode p{
+    display: none;
+}
+
+.list li button{
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+.done li {
+    text-decoration: line-through;
+    color: #CACACA;
+}
